@@ -1,4 +1,4 @@
-/* Basic Style */
+* Basic Style */
 .page {
     background-color: #f8f8f8;
     color: #333;
@@ -13,7 +13,7 @@
 .header-content img {
     width: 100%;
 }
-.header-content .more-inf {
+.header-content__more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -29,12 +29,12 @@
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.main-content__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
+.main-content__task-row-wrapper {
     display: flex;
 }
 ul {
@@ -123,12 +123,12 @@ li > label {
 li >    input[type="text"] {
     width: 226px;
 }
-button.delete img {
+.main-content__delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.main-content__delete img:hover {
     transform: rotateZ(0);
 }
 
