@@ -37,7 +37,7 @@ var createNewTaskElement=function(taskString){
 
     //Each elements, needs appending
     checkBox.type="checkbox";
-    editInput.type="main-content__text";
+    editInput.type="text";
     editInput.className="main-content__task";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
